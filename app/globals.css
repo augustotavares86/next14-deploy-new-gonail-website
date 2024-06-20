@@ -1,33 +1,70 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @tailwind components;
+  @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+  @layer base {
+    @layer base {
+      :root {
+    --background: 214 99.35% 98.5%;
+    --foreground: 214 8.7% 1%;
+    --muted: 214 8.7% 92.5%;
+    --muted-foreground: 214 4.35% 42.5%;
+    --popover: 214 20.400000000000006% 92.5%;
+    --popover-foreground: 214 8.7% 1.25%;
+    --card: 214 20.400000000000006% 92.5%;
+    --card-foreground: 214 8.7% 1.25%;
+    --tertiary: 350 64% 97%;
+    --border: 214 13.7% 90%;
+    --input: 214 13.7% 90%;
+    --primary: 214 87% 25%;
+    --primary-foreground: 214 1.74% 92.5%;
+    --secondary: 214 4.35% 96.25%;
+    --secondary-foreground: 214 6.22% 12.5%;
+    --accent: 214 4.35% 96.25%;
+    --accent-foreground: 214 6.22% 12.5%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --ring: 214 87% 25%;
+    --radius: 0.5rem;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+      }
+    
+      .dark {
+        --background: 222.2 84% 4.9%;
+        --foreground: 210 40% 98%;
+        --card: 222.2 84% 4.9%;
+        --card-foreground: 210 40% 98%;
+        --popover: 222.2 84% 4.9%;
+        --popover-foreground: 210 40% 98%;
+        --primary: 217.2 91.2% 59.8%;
+        --primary-foreground: 222.2 47.4% 11.2%;
+        --secondary: 217.2 32.6% 17.5%;
+        --secondary-foreground: 210 40% 98%;
+        --tertiary: 233 19% 23%;
+        --muted: 217.2 32.6% 17.5%;
+        --muted-foreground: 215 20.2% 65.1%;
+        --accent: 217.2 32.6% 17.5%;
+        --accent-foreground: 210 40% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 40% 98%;
+        --border: 217.2 32.6% 17.5%;
+        --input: 217.2 32.6% 17.5%;
+        --ring: 224.3 76.3% 48%;
+      }
+    }
+    
+    
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  @layer base {
+    * {
+      @apply border-border;
+    }
+    body {
+      @apply bg-background text-foreground;
+    }
   }
-}
+
+  .h1 {
+    @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold mb-5 
+  }
