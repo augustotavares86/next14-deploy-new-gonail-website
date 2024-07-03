@@ -17,12 +17,12 @@ export default function Footer() {
             whileInView={"onscreen"}
             variants={titleVariants} 
             >
-               <h2 className="pb-4 text-xl font-semibold uppercase">Company</h2>
+               <h2 className="pb-4 text-xl font-semibold uppercase">Compania</h2>
                <div className="flex flex-col">
-                <Link href='/' className="py-1 hover:underline">About Us</Link>
-                <Link href='/' className="py-1 hover:underline">Press</Link>
-                <Link href='/' className="py-1 hover:underline">Careers</Link>
-                <Link href='/' className="py-1 hover:underline">Contact</Link>
+                <Link href='/' className="py-1 hover:underline">Sobre-Nos</Link>
+                <Link href='/' className="py-1 hover:underline">Aeroporto</Link>
+                <Link href='/' className="py-1 hover:underline">Galeria</Link>
+                <Link href='/' className="py-1 hover:underline">Contactos</Link>
               </div>
             </motion.div>
 
@@ -31,11 +31,11 @@ export default function Footer() {
             whileInView={"onscreen"}
             variants={desVariants} 
             >
-               <h2 className="pb-4 text-xl font-semibold uppercase">Development</h2>
+               <h2 className="pb-4 text-xl font-semibold uppercase">Desenvolvimento</h2>
                <div className="flex flex-col">
-                <Link href='/' className="py-1 hover:underline">Documentation</Link>
-                <Link href='/' className="py-1 hover:underline">Reference</Link>
-                <Link href='/' className="py-1 hover:underline">Changelog</Link>
+                <Link href='/' className="py-1 hover:underline">Documentação</Link>
+                <Link href='/' className="py-1 hover:underline">Referência</Link>
+                <Link href='/' className="py-1 hover:underline">Registro de alterações</Link>
                 <Link href='/' className="py-1 hover:underline">Status</Link>
               </div>
             </motion.div>
@@ -45,7 +45,7 @@ export default function Footer() {
             whileInView={"onscreen"}
             variants={tagVariants} 
             >
-               <h2 className="pb-4 text-xl font-semibold uppercase">Connect</h2>
+               <h2 className="pb-4 text-xl font-semibold uppercase">Connectado</h2>
                <div className="flex flex-col">
                 <Link href='/' className="py-1 hover:underline">Instagram</Link>
                 <Link href='/' className="py-1 hover:underline">Twitter</Link>
@@ -60,7 +60,7 @@ export default function Footer() {
           whileInView={"onscreen"}
           variants={titleVariants} 
           >
-            <p className="pb-4 text-xl font-semibold">Stay Updated</p>
+            <p className="pb-4 text-xl font-semibold">Ficar Atualizado</p>
             <div className="relative lg:max-w-sm">
               <Input type='name' id='first name' placeholder="Email Address" />
               <button className="absolute bg-black text-white rounded-full h-10 px-3 
@@ -84,11 +84,11 @@ export default function Footer() {
           className="py-10 bg-black dark:bg-primary">
              <div className="container text-white text-center lg:justify-between lg:flex">
                 <div className="pb-4 lg:pb-0">
-                   <p>&copy; 2024 Gonail. All Rights Reserved</p>
+                   <p>&copy; 2024 Todos os Direitos Reservados a Gonail.</p>
                 </div>
                 <div>
-                  <Link className="p-4 hover:underline" href='/'>Privacy</Link>
-                  <Link className="p-4 hover:underline" href='/'>Terms</Link>
+                  <Link className="p-4 hover:underline" href='/'>Privacidade</Link>
+                  <Link className="p-4 hover:underline" href='/'>Termos</Link>
                 </div>
              </div>
           </motion.div>

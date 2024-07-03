@@ -51,7 +51,7 @@ const HeroSection = () => {
          {/* Right Image Section */} 
         <div className='w-1/2'>
           <Image 
-           src="/image/hall.png"
+           src="/image/hall.jpg"
            width={800}
            height={500}
            alt=""

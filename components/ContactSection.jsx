@@ -7,51 +7,36 @@ import { desVariants, tagVariants, titleVariants } from "@/utils/animation";
 const posts = [
     {
       id: 1,
-      title: 'Boost your conversion rate',
-      href: '#',
+      title: '1997',
       description: 
-      'It is a fantastic theme with tons of design and layout options, and the customer service is simply outstanding. They respond immediately and solve any inconvenience, no matter how small.',
+      '•	O Conselho de Ministros aprova uma resolução baseada em um estudo do Banco Mundial sobre a necessidade de um novo aeroporto, alinhado com o plano de crescimento da cidade de Luanda.',
       date: 'May 31, 2024',
       datetime: '2024-03-16',
-      category: { title: '4.7', href: '#' },
+      category: { },
       author: {
-          name: 'Augusto',
-          role: 'Co-Founder / CTO',
-          href: '#',
-          imageUrl: '/image/profile1.jpg',
+          
+          
       },
     },
     {
       id: 2,
-      title: 'Boost your conversion rate',
-      href: '#',
+      title: '2005',
       description: 
-      'It is a fantastic theme with tons of design and layout options, and the customer service is simply outstanding. They respond immediately and solve any inconvenience, no matter how small.',
+      'Apresentação de um estudo de pré-viabilidade do novo aeroporto pela Perkins & Will, empresa americana que sugeriu dois terrenos para a construção do aeroporto: Bom Jesus e Kilamba.',
       date: 'May 31, 2024',
       datetime: '2024-03-16',
-      category: { title: '4.9', href: '#' },
-      author: {
-          name: 'Michael Chris',
-          role: 'Co-Founder / CEO',
-          href: '#',
-          imageUrl: '/image/profile2.jpg',
-      },
+      category: { },
+      author: {},
     },
     {
       id: 3,
-      title: 'Boost your conversion rate',
-      href: '#',
+      title: '2006',
       description: 
-      'It is a fantastic theme with tons of design and layout options, and the customer service is simply outstanding. They respond immediately and solve any inconvenience, no matter how small.',
+      'Aprovação do decreto 12/06 pelo Conselho de Ministros, oficializando a reserva dos terrenos para a construção do aeroporto.',
       date: 'May 31, 2024',
       datetime: '2024-03-16',
-      category: { title: '4.2', href: '#' },
-      author: {
-          name: 'Samuel JOS',
-          role: 'Co-Founder / CTO',
-          href: '#',
-          imageUrl: '/image/profile1.jpg',
-      },
+      category: {},
+      author: {},
     },
 ]
 
@@ -63,13 +48,12 @@ export default function ContactSection() {
              initial="offscreen"
              whileInView={"onscreen"}
              variants={titleVariants}
-             className="text-3xl font-bold tracking-tight sm:text-4xl">Customer Reviews</motion.h2>
+             className="text-3xl font-bold tracking-tight sm:text-4xl">MARCOS HISTÓRICOS</motion.h2>
              <motion.p
              initial="offscreen"
              whileInView={"onscreen"}
              variants={desVariants} 
              className="mt-2 text-lg leading-8 text-muted-foreground">
-                Learn how to grow your business with our export advice.
              </motion.p>
 
              <motion.div

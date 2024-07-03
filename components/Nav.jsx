@@ -9,8 +9,8 @@ import { motion } from "framer-motion";
 const links = [
     { path: '/', name: 'Início' },
     { path: '/sobre-nos', name: 'sobre-nos' },
-    { path: '/servicos', name: 'servicos' },
-    { path: '/Imagens', name: 'Imagens' },
+    { path: '/aeroporto', name: 'aeroporto' },
+    { path: '/galeria', name: 'galeria' },
     { path: '/contactos', name: 'contactos' },
 ]
 
